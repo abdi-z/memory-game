@@ -1,5 +1,9 @@
 # Memory Card Game
-A simple react site that allows the user to play the famous card memorizing game.
+A simple react site that allows the user to play the simple version of memory card game. Deployed live at https://memory-game-by-ar.herokuapp.com/
+
+# Algorithm:
+
+We simply start of by saving the state of the clicked card in choiceOne and then choiceTwo. If the src property of those two objects are equal we simple changed their matched property to true so in future we do not allow user to re click them. If the src property does not match, we simply reset both our choices. We also update our turn state every time second choice is taken. Finally, every second choice we take in which our guess was correct or matched property is true, we retiterate through the cards state to check if all the card objects have their matched property true. If such is the case we set our win state to true and render such message along with taken turns.
 
 https://user-images.githubusercontent.com/92116477/166100929-8e1a8907-d412-45d8-8271-d9aacc73b238.mp4
 
@@ -7,8 +11,6 @@ https://user-images.githubusercontent.com/92116477/166100929-8e1a8907-d412-45d8-
 useState for obvious state handling of different variables so we can re-render components if they are changed.
 useEffect for handling sideeffects. No such sideffects as in api handling was used instead useEffect was utilized for other usecases like as react delays saving states we can not conditionally check them. So, we use those states in dependency array of the useEffect so if they are changed only then we check them.
 Smooth animations were rendered using plain css with transform and transition properties.
-#Algorithm:
-We simply start of by saving the state of the clicked card in choiceOne and then choiceTwo. If the src property of those two objects are equal we simple changed their matched property to true so in future we do not allow user to re click them. If the src property does not match, we simply reset both our choices. We also update our turn state every time second choice is taken. Finally, every second choice we take in which our guess was correct or matched property is true, we retiterate through the cards state to check if all the card objects have their matched property true. If such is the case we set our win state to true and render such message along with taken turns.
 
 # Conditions of winning:
 
