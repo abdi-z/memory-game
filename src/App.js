@@ -91,7 +91,11 @@ function App() {
             <a
               href="https://www.linkedin.com/in/abdul-rehman-aziz/"
               target="_none"
-              style={{ textDecoration: "none", color: "white" }}>
+              style={{
+                textDecoration: "none",
+                color: "white",
+                paddingBottom: "5",
+              }}>
               Let me know if you enjoyed!
             </a>
             <br />
