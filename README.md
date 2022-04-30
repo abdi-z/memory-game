@@ -16,11 +16,11 @@ Smooth animations were rendered using plain css with transform and transition pr
 
 If the user wins with less than 13 turns, user is prompted with a more winning message.
 
-<img width="930" alt="grtrthan12turns" src="https://user-images.githubusercontent.com/92116477/166100999-98311dbc-d279-4d96-81aa-8c2d2207afd9.png">
+<img width="922" alt="less12turns" src="https://user-images.githubusercontent.com/92116477/166101008-0160e265-d8fe-485c-a696-bdc337726a9e.png">
 
 However, if the user takes more turns to complete the game, they are prompted with a different message.
 
-<img width="922" alt="less12turns" src="https://user-images.githubusercontent.com/92116477/166101008-0160e265-d8fe-485c-a696-bdc337726a9e.png">
+<img width="930" alt="grtrthan12turns" src="https://user-images.githubusercontent.com/92116477/166100999-98311dbc-d279-4d96-81aa-8c2d2207afd9.png">
 
 
 
@@ -96,5 +96,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 # Credits:
-Help and inspiration from Shaun Pelling https://github.com/iamshaunjp
+Help,assets and inspiration from Shaun Pelling https://github.com/iamshaunjp
 
