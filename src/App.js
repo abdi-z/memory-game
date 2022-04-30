@@ -88,7 +88,13 @@ function App() {
         turns <= 12 ? (
           <>
             <h2>Wow! You won with only turns {turns}</h2>
-            <a href="">Let me know if you enjoyed!</a>
+            <a
+              href="https://www.linkedin.com/in/abdul-rehman-aziz/"
+              target="_none"
+              style={{ textDecoration: none, color: "white" }}>
+              Let me know if you enjoyed!
+            </a>
+            <br />
           </>
         ) : (
           <h3>You won with turns {turns}...You can do better</h3>
